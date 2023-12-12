@@ -667,7 +667,7 @@ const DrawingArea = () => {
               {/* stickynotes */}
               <OverlayTrigger
                 trigger="click"
-                placement="right"
+                placement="top"
                 overlay={CustomStickyPopover({
                   setSelectedColor,
                   handleAddNote,
